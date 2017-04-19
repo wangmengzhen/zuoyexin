@@ -1,0 +1,23 @@
+h2{
+	font-weight:bolder;
+	text-align:center;
+}
+h6{
+	text-align:center;
+	color:gray;
+}
+a{
+	color:#07f;
+}
+p{
+	text-indent:2em;
+	line-height:1.5em;
+}
+#blue{
+	color:#01f;
+}
+li{
+	line-height:1.5em;
+	color:#06f;
+	font-style:italic;
+}
