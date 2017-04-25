@@ -1,0 +1,7 @@
+.leftmenu a{
+	font-size:14px;
+	text-decoration: none;
+}
+.leftmenu a:hover{
+	color:#b9f605;
+}
