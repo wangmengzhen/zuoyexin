@@ -1,0 +1,192 @@
+*{
+	padding-bottom: 0px;
+	margin:0px;
+}
+body{
+	font:12px/22px "宋体" ;
+	color: #333;
+}
+.menu{
+	width:100%;
+	height: 40px;
+	background:#739616;
+}
+.menu ul	
+{
+	width: 1000px;
+	list-style:none;
+	margin:0px auto;
+}
+.menu ul li{
+	width: 200px;
+	padding:5px 0px;
+	float:left;
+	font-family: "宋体";
+	font-size:20px;
+	font-weight:bold;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #000;
+	vertical-align:middle;
+	opacity: 0.5;
+}
+.menu ul li a:hover{
+	color:#aaa;
+	opacity: 1;
+	background:#9ded40；
+}
+.clear{
+	clear:both;
+}
+.zong{
+	width: 1000px;
+	height: 60px;
+	margin:0px auto;
+}
+.logo{
+	width: 660px;
+	height: 60px;
+	float: left;
+}
+.sousuo{
+	width: 340px;
+	float: left;
+}
+.sousuo form input.first{
+	width: 292px;
+	height: 22px;
+	float: left;
+	margin-top:15px;
+}
+.sousuo form input.second{
+	width: 38px;
+	margin-top:15px;
+	height: 26px;
+	padding-right:3px;
+}
+
+.logo img{
+	width: 100px;
+	margin:0px auto;
+}
+.banner,.banner img{
+	width:100%;
+	height:300px;
+}
+.title{
+	font-size:28px;
+	font-family:"微软雅黑";
+	font-weight: bolder;
+	margin:0px 160px;
+	vertical-align: bottom;
+	background:#9ded40;
+	text-align:center;
+	padding:5px 0px;
+}
+.title a{
+	text-decoration:none;
+	color:#000;
+}
+.title a:hover{
+	color:#5d8513;
+}
+.main{
+	width: 1000px;
+	margin:0px auto;
+}
+.m_left{
+	width:238px;
+	height: 310px;
+	float:left;
+	border:1px solid #ccc;
+	margin-left:10px;
+}
+.main .m_left a,.main .m_right a{
+	opacity: 1;
+}
+.m_left a:hover,.m_right a:hover{
+	opacity: 0.5;
+}
+.m_right{
+	width:738px;
+	height: 310px;
+	float:left;
+	border:1px solid #ccc;
+	text-indent:2em;
+	text-align:left;
+	line-height: 1.5em;
+	color:#565052;
+	font-family:"宋体";
+	font-size:14px;
+	text-decoration: none;
+	margin-right:10px;
+}
+.m_right a:hover{
+	color:#5d8513;
+}
+.list{
+	width:1000px;
+	margin:0px auto;
+}
+.list_img{
+	width:228px;
+	height: 300px;
+	float: left;
+	margin: 10px;
+	border: 1px solid #ccc
+}
+.list_img a{
+	opacity: 1;
+}
+.list_img a:hover{
+	opacity: 0.5;
+}
+.list_img p{
+	font-size:14px;
+	font-weight: bold;
+	font-family: "宋体";
+	color:#000;
+}
+.list_img h3{
+	text-align:center;
+	color:#a19541;
+}
+.list_img1 img{
+	width:230px;
+	height: 150px
+}
+.list_img1{
+	width: 230px;
+	height:150px;
+	float: left;
+	margin: 10px;
+}
+.list_img1 a{
+	opacity: 1;
+}
+.list_img1 a:hover{
+	opacity: 0.5;
+}
+.list_img1 p{
+	color:#203c09;
+	font-family:"宋体";
+	font-size:14px;
+}
+.list_img1 ul li{
+	color:#203c09;
+	font-family:"宋体";
+	font-size:14px;
+}
+.ntitle img{
+	width: 230px;
+	height:100px;
+}
+.footer{
+	height: 40px;
+	background:#666;
+	color:#aaa;
+	text-align:center;	
+	padding:28px 0px;
+	font-weight: bold;
+}
