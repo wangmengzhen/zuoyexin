@@ -1,0 +1,296 @@
+/*页头*/
+*{
+margin:0;
+padding:0;
+border:0;
+}
+ul, ol, li{
+list-style:none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	/*overflow-x: hidden;*/
+	background-color:#f9f9f9;
+}
+.clear{
+	clear: both;
+}
+.logo{
+	width: 1000px;
+	margin:0px auto;
+}
+.img{
+	width: 200px;
+	float: left;
+	padding:20px 0px;
+	}
+.img img{
+	height: 60px;
+}
+.sousuo{
+	height: 100px;
+	float: right;
+	line-height: 100px;
+}
+.sousuo .dan1{
+	width: 300px;
+	height: 35px;
+	line-height: 39px;
+	border:1px solid #6666FF;
+}
+.sousuo .dan2{
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	border:1px solid #6666FF;
+	background-color:#0176c6;
+	color:#fff;
+	font-size:24px;
+}
+.daohang{
+	background-color:#fff;
+	width: 100%;
+	height: 45px;
+}
+.daohang ul{
+	width: 1000px;
+	margin:0px auto;
+}
+.daohang li a{
+	float: left;
+	width: 110px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+}
+.daohang ul li a{
+	text-decoration: none;
+	font-size:24px;
+	color:#000;
+}
+.daohang ul .hou:hover a{
+	background-color:#0176c6;
+	color:#fff;
+}
+.daohang #word a{
+	color: #fff;
+	background-color: #0176c6;
+}
+/*页面主体部分*/
+.content{
+	width: 1000px;
+	margin:0px auto;
+}
+.content img:hover{
+	opacity: 0.5;
+}
+
+.content a{
+	color:#0176c6;
+}
+.content a:hover{
+	text-decoration: underline;
+}
+.content_left{
+	background-color: #fff;
+	margin-right:5px;
+	margin-bottom: 20px;
+	padding:10px 5px;
+	/*border:1px solid #ccc;*/
+	width: 728px;
+	height: 1250px;
+	float:left;
+}
+.content_left h2,.ti,img{
+	text-align: center;
+}
+.content_left .line1{
+	width: 698px;
+	height: 2px;
+	background-color:#ccc;
+	margin:10px 10px;
+}
+.content_left .ti{
+	color:#aaa;
+	font-size: 14px;
+}
+.content_left .neirong{
+	color:#111;
+	font-size:16px;
+	text-indent: 2em;
+	line-height: 2em;
+}
+.content_left .imag{
+	width: 698px;
+	height: 250px;
+	margin:10px 124px; 
+}
+.content_left .neirong_you{
+	float:right;
+	color:#444;
+}
+.content_left .shang{
+	float:left;
+}
+.content_left .xia{
+	float:right;
+}
+.content_left textarea{
+	width: 690px;
+	height: 100px;
+	border:1px solid #ccc;
+	margin:15px 15px 0px 15px;
+}
+.content_left input{
+	width: 90px;
+	height: 40px;
+	background-color:#0176c6;
+	border:1px solid #ccc;
+	float:right;
+	margin-right: 20px;
+	color:#fff;
+	font-size: 16px;
+}
+.content_left img{
+	float:left;
+	margin:10px 0px 10px 10px;
+}
+.content_left img:hover{
+	opacity: 0.5;
+}
+
+.content_left span{
+	float:left;
+	margin: 10px 10px 10px 0px;
+}
+
+.content_right{
+	margin-left:5px;
+	margin-bottom: 10px;
+	background-color:#fff;
+	padding:5px;
+	/*border:1px solid #ccc;*/
+	width: 228px;
+	height: 540px;
+	float:left;
+}
+.content_right_1{
+	margin-left:5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color:#fff;
+	padding:5px;
+	/*border:1px solid #ccc;*/
+	width: 228px;
+	height: 675px;
+	float:left;
+}
+.content_right .pinglun{
+	/*background-color:#fff;*/
+	width: 206px;
+	height: 540px;
+	margin:5px 5px 40px 10px;
+	/*border:1px solid #ccc;*/
+}
+.content_right .biaoti{
+	width: 206px;
+	height: 25px;
+}
+.content_right .biaoti span{
+	color:#0176c6;
+}
+.content_right_1 .biaoti{
+	width: 206px;
+	height: 25px;
+}
+.content_right_1 .biaoti span{
+	color:#0176c6;
+}
+.content_right h5{
+	font-size: 14px;
+	color:#0176c6;
+}
+.content_right li a{
+	font-size:14px;
+	color:#222;
+}
+.content_right li{
+	line-height: 25px;
+	list-style-type:disc;
+	list-style-position: inside;
+}
+
+.content_right p{
+	text-align: center;
+	color:#aaa;
+	font-size: 12px;
+}
+.content_right span{
+	font-size: 16px;
+	font-weight: bold;
+}
+.content_right .line2{
+	width: 186px;
+	height: 2px;
+	background-color: #ccc;
+	margin:10px;
+}
+.content_right_1 p{
+	text-align: center;
+	color:#aaa;
+	font-size: 12px;
+}
+.content_right_1 span{
+	font-size: 16px;
+	font-weight: bold;
+}
+.content_right_1 .line2{
+	width: 186px;
+	height: 2px;
+	background-color: #ccc;
+	margin:10px;
+}
+.content_right_1 .rebo{
+	/*background-color:#fff;*/
+	width: 206px;
+	height: 675px;
+	margin:5px;
+	/*border:1px solid #ccc;*/
+
+}
+.content_right_1 .rebo1{
+	margin:10px 0px 10px 0px;
+}
+
+.content_right_1 .rebo h3{
+	text-align: center;
+}
+
+/*页脚*/
+.footer{
+	width: 100%;
+	height: 100px;
+	background-color:#999;
+}
+.footer ul{
+	padding: 30px 450px;
+}
+.footer li{
+	float: left;
+	padding:5px;
+	color:#eee;
+
+}
+.footer li a{
+	color:#eee;
+}
+.footer li a:hover{
+	text-decoration: underline;
+	color:#0176c6;
+}
+.footer p{
+	text-align: center;
+	color:#eee;
+}
